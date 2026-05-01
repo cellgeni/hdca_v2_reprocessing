@@ -1,0 +1,39 @@
+title,doi,accession,institute,assay,key,avialability,status,comment,simone comment,link
+Calvanese_et_al_2022_nature,https://doi.org/10.1038/s41586-022-04571-x,GSE162950,Broad_Stem_Cell_Research_centre,,,open,reprocessed by Alex,"we use just four samples, I guess AGM stands for aorta-gonad-mesonephros",,
+Dong_et_al_2022_CancerCell,https://doi.org/10.1016/j.ccell.2020.08.014,GSE137804,Children's Hospital Affiliated to Fudan University,,,open,,"just four samples, to be selected by names",,
+Braun_et_al._2022_bioRxiv,https://www.science.org/doi/10.1126/science.adf1226,EGAD50000001295,Karolinska,,,EGA,reprocessed by Alex,EGAS00001004107,,
+Braun_et_al._2022_bioRxiv,https://www.science.org/doi/10.1126/science.adf1226,EGAD00001006049,Karolinska,,,EGA,reprocessed by Alex,EGAS00001004107,,
+Colin_et_al_2022_ScienceDirect,https://doi.org/10.1016/j.jtos.2021.03.010,GSE155683,Newcastle_University,,,open,,,,
+Yu_et_al_2020_Cell,https://doi.org/10.1016/j.cell.2021.04.028,E-MTAB-10187,Roche,,,open,reprocessed by Alex,,,
+Miller_et_al_2020_Developmental_Cell,https://doi.org/10.1016/j.devcel.2020.01.033,E-MTAB-8221,University_of_Michigan,,,open,reprocessed by Alex,,,
+Sridhar_et_al_2020_CellPress,https://doi.org/10.1016/j.celrep.2020.01.007,GSE142526,University_of_Washington,,,open,,,,
+Garcia_Alonso_et_al_2022_nature,https://doi.org/10.1038/s41586-022-04918-4,E-MTAB-10551,Wellcome_Sanger,10x RNA-seq,,open,reprocessed by Alex,,,
+Garcia_Alonso_et_al_2022_nature,https://doi.org/10.1038/s41586-022-04918-4,E-MTAB-11708,Wellcome_Sanger,10x multiome,,open,,not sure it was used ,,
+He_et_al_2022_Cell,https://doi.org/10.1016/j.cell.2022.11.005,E-MTAB-11278,Wellcome_Sanger,,,open,,,drop this study. Quach will replace it (different lab/cells),
+Kanemaru_et_al_2024_bioRxiv,https://www.biorxiv.org/content/10.1101/2024.04.27.591127v1.full,internal_heart,Wellcome_Sanger,,,internal,,seems like paper is not published yet,,
+Lawrence_et_al_2024_nature_comm.,https://www.nature.com/articles/s41467-024-54187-0,EGAD00001009801,Wellcome_Sanger,,,protected,,,,
+Suo_et_al_2022_Science_Elmentaite2020,https://doi.org/10.1016/j.devcel.2020.11.010 ,E-MTAB-8901,Wellcome_Sanger,,,open,,,,
+Suo_et_al_2022_Science_Jardine2021,https://doi.org/10.1038/s41586-021-03929-x ,E-MTAB-9389,Wellcome_Sanger,,,open,reprocessed by Alex,"there might be other acc as well, methods are unclear: ERP125305, E-MTAB-9801 ",,
+Suo_et_al_2022_Science_Stewart2019,https://doi.org/10.1126/science.aat5031 ,PRJEB37165,Wellcome_Sanger,,,open,,,,
+Suo_et_al_2022_Science_Suo2022,https://doi.org/10.1126/science.abo0510,E-MTAB-11343,Wellcome_Sanger,,,open,,,,
+whole_embryo,,E-MTAB-11504,Wellcome_Sanger,,9f0f638d-74e1-4b99-9d49-fd1e219f8eb5,internal,,,,"https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-11504?key=9f0f638d-74e1-4b99-9d49-fd1e219f8eb5 
+"
+whole_embryo,,E-MTAB-11520,Wellcome_Sanger,,86f78a2f-51ef-4936-9bf3-20a5ebdc707e,internal,,,,https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-11520?key=86f78a2f-51ef-4936-9bf3-20a5ebdc707e
+whole_embryo,,E-MTAB-11911,Wellcome_Sanger,,a5fc3549-acbf-4aee-aa5d-d1f4fef4594b,internal,,,,https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-11911?key=a5fc3549-acbf-4aee-aa5d-d1f4fef4594b
+Zhang_et_al_2020_bioRxiv,https://www.nature.com/articles/s41586-023-06806-x,E-MTAB-8813,Wellcome_Sanger,,,open,,,,
+Hu_2025_amnion,https://doi.org/10.1038/s41556-025-01696-9,GSE260715,California Institute of Technology,10x scRNA-seq,,open,done,,"thanks! Hi/Zernicka-Goetz/Roser et al, amnion, 5-9pcw, 14k - yes, to cover extra-embryonic",
+Vento-Tormo_2018_placenta,https://doi.org/10.1038/s41586-018-0698-6,E-MTAB-6701,Wellcome_Sanger,10x scRNA-seq,,open,reprocessed by Alex,,"thanks! Roser et al, placenta/decidua, 70k - yes, to cover extra-embryonic",
+To_et_al_2024_nature,https://www.nature.com/articles/s41586-024-08189-z,E-MTAB-14385,Wellcome_Sanger,10x scRNA-seq,,open,,"is it same To paper as we already have, just more samples?","to replace To et al skull data. To et al, skeleton, 330k - yes, to update current 'skull' 197k with hip/knee/shoulder also (same+more cells)",
+whole_embryo_11pcw,,internal_we_11pcw,Wellcome_Sanger,,,internal,,"Haniffa Lab 11PCW whole fetus data - unpublished/un-annotated, ~1million cells - great chance to enrich fetal celltypes (transient/rare/transitional)",thanks!,
+Xu_2023_embryo,https://doi.org/10.1038/s41556-023-01108-w,GSE157329,"Tongji University, Shanghai",10x scRNA-seq,,open,reprocessed by Alex,,"thanks! Xu et al, 2023, embryo, 4-6pcw, 180k - yes, to support WE timepoint",
+Wang_embryo_2024,https://doi.org/10.1186/s13578-024-01302-9,HRA005835,Nantong University,,,protected,,,"thanks! Wang et al, 2024, embryo, 7-9pcw, 70k - yes, to support WE timepoint",https://ngdc.cncb.ac.cn/gsa-human/browse/HRA005835 
+Quach_lung_2024,https://doi.org/10.1038/s41467-024-50281-5,GSE264407,"Hospital for Sick Children, Toronto",10x scRNA-seq,,open,reprocessed by Alex,,"to replace He et al. Quach et al, 2024, lung, 8-17pcw, 150k - yes, to replace teichlab 80k atlas. hi-qual, hi-res, double nr cells",
+Ma_pancreas_2023,https://doi.org/10.1038/s41467-023-40893-8,HRA002757,"Institute of Biophysics, Chinese Academy of Sciences,",,,protected,,,"we need pancreas, can alternatively ask anne grappin-botton. Ma, 2023, pancreas, 4-11pcw, 68k - yes!!!, we need pancreas - or ask anne grappin-botton",https://ngdc.cncb.ac.cn/gsa-human/browse/HRA002757 
+Gopee_skin_2024,https://doi.org/10.1038/s41586-024-08002-x,E-MTAB-11343,Wellcome_Sanger,10x scRNA-seq,,open,,,"to replace skin within Suo_et_al_2022_Science_Popescu2019 (some cell overlap, but this will have new samples). Gopee, 2024, skin, 7-17pcw, 433k - yes, to update current Suo/Reynolds et al 179k 6-16pcw (same+more cells)",
+Gopee_skin_2024,https://doi.org/10.1038/s41586-024-08002-x,E-MTAB-7407,Wellcome_Sanger,10x scRNA-seq,,open,reprocessed by Alex,,"to replace skin within Suo_et_al_2022_Science_Popescu2019 (some cell overlap, but this will have new samples). Gopee, 2024, skin, 7-17pcw, 433k - yes, to update current Suo/Reynolds et al 179k 6-16pcw (same+more cells)",
+Gopee_skin_2024,https://doi.org/10.1038/s41586-024-08002-x,E-MTAB-13071,Wellcome_Sanger,10x scRNA-seq,,open,,,"to replace skin within Suo_et_al_2022_Science_Popescu2019 (some cell overlap, but this will have new samples). Gopee, 2024, skin, 7-17pcw, 433k - yes, to update current Suo/Reynolds et al 179k 6-16pcw (same+more cells)",
+Goh_yolk_sac_2023,https://doi.org/10.1126/science.add7564,E-MTAB-10552,Wellcome_Sanger,10x scRNA-seq,,open,,human EL and YS,"to replace yolk sac within Suo_et_al_2022_Science_Popescu2019 (some cell overlap, but this will have new samples). Goh, 2023, yolk sac, 169k - yes, to update current Suo/Popescu et al 56k (same+more cells)",
+Goh_yolk_sac_2023,https://doi.org/10.1126/science.add7564,E-MTAB-11673,Wellcome_Sanger,10x scRNA-seq,,open,,human embryonic YS,"to replace yolk sac within Suo_et_al_2022_Science_Popescu2019 (some cell overlap, but this will have new samples). Goh, 2023, yolk sac, 169k - yes, to update current Suo/Popescu et al 56k (same+more cells)",
+Yayon_thymus_2024,https://doi.org/10.1038/s41586-024-07944-6,EGAD00001015384,Wellcome_Sanger,10x,,protected,,,"to replace thymus within Suo_et_al_2022_Science_Park2020 (some cell overlap, but this will have new samples). Yayon, 2024, thymus, 11-23pcw, 151k - yes, to update current Park et al 104k 7-17pcw (same+more cells)",
+Yayon_thymus_2024,https://doi.org/10.1038/s41586-024-07944-6,PRJEB77091,Wellcome_Sanger,10x,,open,,,"to replace thymus within Suo_et_al_2022_Science_Park2020 (some cell overlap, but this will have new samples). Yayon, 2024, thymus, 11-23pcw, 151k - yes, to update current Park et al 104k 7-17pcw (same+more cells)",
+Yayon_thymus_2024,https://doi.org/10.1038/s41586-024-07944-6,GSE271304,Wellcome_Sanger,CITE-seq-GEX,,open,reprocessed by Alex,,"no, just the 10x",

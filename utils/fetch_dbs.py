@@ -2,6 +2,58 @@ import pandas as pd
 import gzip
 import requests
 from io import BytesIO
+import mysql.connector
+
+
+def fetch_mlw_query(credentials,query):
+    db = mysql.connector.connect(
+      host=credentials['host'],
+      user=credentials['user'],
+      password=credentials['password'],
+      database=credentials['database'],
+      port=credentials['port']
+    )
+    
+    df = pd.read_sql(query, db)
+    
+    db.close()
+    return df
+
+def get_sample_info_from_mlw(credentials,samples):
+    db = mysql.connector.connect(
+      host=credentials['host'],
+      user=credentials['user'],
+      password=credentials['password'],
+      database=credentials['database'],
+      port=credentials['port']
+    )
+
+    results = []
+    
+    for sample in samples:
+        sample = db.converter.escape(sample)
+        results.append(pd.read_sql(f"""
+        SELECT  sample.name as sample_name,
+                sample.id_sample_lims as sqsc_sample_id,
+                sample.supplier_name,
+                sample.donor_id,
+                study.name as study_name,
+                study.id_study_lims as sqsc_study_id,
+                flowcell.pipeline_id_lims
+        FROM    mlwarehouse.sample AS sample,
+                mlwarehouse.study AS study,
+                mlwarehouse.iseq_flowcell as flowcell
+        WHERE   sample.id_sample_tmp = flowcell.id_sample_tmp
+                AND flowcell.id_study_tmp = study.id_study_tmp
+                AND sample.name = '{sample}'
+        """, db))
+        
+
+    db.close()
+    
+    df = pd.concat(results)
+    df = df.drop_duplicates()
+    return df
 
 def get_EGAD_files(EGAD: str)-> pd.DataFrame:
     response = requests.get(f"https://metadata.ega-archive.org/datasets/{EGAD}/files")

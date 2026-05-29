@@ -3,7 +3,57 @@ import gzip
 import requests
 from io import BytesIO
 import mysql.connector
+import os
+import os
+from typing import Union, List
+from irods.session import iRODSSession
 
+
+def irods_path_exists(
+    irods_paths: Union[str, List[str]],
+    session: iRODSSession = None
+) -> Union[bool, List[bool]]:
+    """
+    Check whether iRODS data objects or collections exist at the given path(s).
+
+    Parameters
+    ----------
+    irods_paths : str or list of str
+        A single iRODS path or a list of iRODS paths.
+    session : iRODSSession, optional
+        An existing iRODS session. If None, a temporary one is opened
+        using ~/.irods/irods_environment.json.
+
+    Returns
+    -------
+    bool or list of bool
+        A single bool if a string was passed; a list of bools if a list was passed
+        (in the same order as the input).
+    """
+    # Normalize input: remember whether we got a single path or a list
+    single = isinstance(irods_paths, str)
+    paths = [irods_paths] if single else list(irods_paths)
+
+    # Open a session if one wasn't provided
+    close_after = False
+    if session is None:
+        env_file = os.environ.get(
+            "IRODS_ENVIRONMENT_FILE",
+            os.path.expanduser("~/.irods/irods_environment.json"),
+        )
+        session = iRODSSession(irods_env_file=env_file)
+        close_after = True
+
+    try:
+        results = [
+            session.data_objects.exists(p) or session.collections.exists(p)
+            for p in paths
+        ]
+    finally:
+        if close_after:
+            session.cleanup()
+
+    return results[0] if single else results
 
 def fetch_mlw_query(credentials,query):
     db = mysql.connector.connect(
@@ -37,6 +87,7 @@ def get_sample_info_from_mlw(credentials,samples):
                 sample.id_sample_lims as sqsc_sample_id,
                 sample.supplier_name,
                 sample.donor_id,
+                sample.accession_number,
                 study.name as study_name,
                 study.id_study_lims as sqsc_study_id,
                 flowcell.pipeline_id_lims

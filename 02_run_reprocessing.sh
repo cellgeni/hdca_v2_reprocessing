@@ -278,24 +278,64 @@ SERIES=GSE245310
 cd $SERIES
 mv ${SERIES}.sample.list ${SERIES}.sample_all.list
 #mv $SERIES.urls.list $SERIES.urls_all.list
-# so, they sumbitted lanes as individual samples... 
-# here are real samples.
-wget -q -O - https://ftp.ncbi.nlm.nih.gov/geo/series/GSE245nnn/GSE245310/suppl/GSE245310%5Fhuman%5FDRG%5Fmeta%2Etxt%2Egz | zcat | cut -f4 | tail -n +2 | sort | uniq -c
+# so, they sumbitted lanes as individual samples...
+# map of geo samples to real samples, see 01_collect_sample_metadata.ipynb
+cp ../../actions/hdca_v2_reprocessing/datasets_metadata/GSE245310lane_to_sample.csv ./
+# reorganize fastqs
+cut -d',' -f 3 GSE245310lane_to_sample.csv  | tail -n+2 | sort -u | while read s; do mkdir fastqs/$s; done
+sed  's/,/ /g' GSE245310lane_to_sample.csv  | tail -n+2 | sort -u | while read i l s; do mv fastqs/${l} fastqs/${s}/; done
+
+cut -d',' -f 3 GSE245310lane_to_sample.csv  | tail -n+2 | sort -u > ${SERIES}.sample.list
 
 
-find . -type d -path "*/output" -empty | cut -d'/' -f 2 > ${SERIES}.sample.list
-# 52 samples failed with segmentation fault... lets rerun them
-for i in `cat ${SERIES}.sample.list`; do rm -rf $i; done
-
-
-# there is a rumor that it is because of Velocyto, lets skip this stage
+# fails with segmentation fault, there is a rumor that it is because of Velocyto, lets skip this stage
 sed -i 's|Velocyto/raw Velocyto/filtered||' starsolo_10x_auto.sh
 sed -i 's|Velocyto ||g' starsolo_10x_auto.sh
 
 nohup ./run_starsolo.sh $SERIES  > solo.log 2>&1 & 
+
 # looks like removal of velocyto helped
 ./solo_QC.sh > $SERIES.solo_qc.tsv
-mv ${SERIES}.sample_all.list ${SERIES}.sample.list
+
+#############################
+# GSE147520 #################
+#############################
+SERIES=GSE147520
+cd $SERIES
+# in work
+
+rm -rf GSM* fastqs/*
+
+# get urls
+cut -f 4 ${SERIES}.accessions.tsv | tr ',' '\n' | while read srr
+do
+ ../../actions/hdca_v2_reprocessing/utils/query_sdl.sh $srr
+done   > srr_urls.txt
+
+# download
+while read srr url
+do
+  echo $srr
+  wget -b -O done_wget/$srr  -o ${srr}_wget.log  $url
+done <  srr_urls.txt
+
+
+cd done_wget
+./bsub_sra2fastq.sh $SERIES sra_to_10x_fastq_gz.sh  
+
+##### HERE #######
+
+./reorganise_fastqs.sh $SERIES
+nohup ./run_starsolo.sh $SERIES  > solo.log 2>&1 & 
+./solo_QC.sh > $SERIES.solo_qc.tsv
+# these are four atac samples, lets delete them (GSM4710478 GSM4710479 GSM4710480 GSM4710481)
+for s in `grep -Fxv -f <(cut -f1 ${SERIES}.solo_qc.tsv | tail -n +2) ${SERIES}.sample.list`
+do
+ echo $s
+ rm -r $s
+done
+
+
 
 
 #############################

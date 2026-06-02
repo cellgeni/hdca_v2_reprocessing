@@ -1,12 +1,38 @@
 import pandas as pd
+from collections import defaultdict
 import gzip
 import requests
 from io import BytesIO
 import mysql.connector
 import os
-import os
+import io
 from typing import Union, List
 from irods.session import iRODSSession
+
+
+
+def read_gzipped_irods_files_as_set(irods_paths: list[str]) -> list[set]:
+    """
+    Read one or more gzipped files from iRODS and return a list of sets,
+    one set per file, preserving the order of irods_paths.
+
+    Args:
+        irods_paths: List of full iRODS paths to .gz files
+
+    Returns:
+        A list of sets, each containing stripped non-empty lines from the corresponding file.
+    """
+    env_file = os.path.expanduser("~/.irods/irods_environment.json")
+    results = []
+
+    with iRODSSession(irods_env_file=env_file) as session:
+        for irods_path in irods_paths:
+            with session.data_objects.open(irods_path, "r") as irods_file:
+                raw_bytes = irods_file.read()
+            with gzip.open(io.BytesIO(raw_bytes), "rt", encoding="utf-8") as gz_file:
+                results.append({line.strip() for line in gz_file if line.strip()})
+
+    return results
 
 
 def irods_path_exists(
@@ -37,10 +63,7 @@ def irods_path_exists(
     # Open a session if one wasn't provided
     close_after = False
     if session is None:
-        env_file = os.environ.get(
-            "IRODS_ENVIRONMENT_FILE",
-            os.path.expanduser("~/.irods/irods_environment.json"),
-        )
+        env_file = os.path.expanduser("~/.irods/irods_environment.json")
         session = iRODSSession(irods_env_file=env_file)
         close_after = True
 
@@ -137,14 +160,6 @@ def get_EGAD_files(EGAD: str)-> pd.DataFrame:
         ])
     df = pd.DataFrame(data, columns=["EGAD","EGAF","EGAX","EGAN","AUTHOR_ID","LIBRARY_TYPE",'DESCRIPTION'])
     return df
-
-import gzip
-from collections import defaultdict
-from io import BytesIO
-
-import pandas as pd
-import requests
-
 
 def get_geo_family_soft_samples(
     url: str,

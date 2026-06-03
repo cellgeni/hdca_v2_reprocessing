@@ -1,0 +1,4 @@
+io_params:
+  storage_path : '/lustre/scratch124/cellgen/haniffa/users/ar32/fresh_public_object_curations/output_files/'
+  datasets_path : '../hdca_reprocessing - accessions.csv'
+  libraries_path : '../libraries_lists/hdca_v2_libraries260602.csv'

@@ -273,19 +273,18 @@ mv ${SERIES}.sample_all.list ${SERIES}.sample.list
 #############################
 ## GSE245310 ################
 #############################
-# in work
 SERIES=GSE245310
 cd $SERIES
 mv ${SERIES}.sample.list ${SERIES}.sample_all.list
 #mv $SERIES.urls.list $SERIES.urls_all.list
 # so, they sumbitted lanes as individual samples...
 # map of geo samples to real samples, see 01_collect_sample_metadata.ipynb
-cp ../../actions/hdca_v2_reprocessing/datasets_metadata/GSE245310lane_to_sample.csv ./
+cp ../../actions/hdca_v2_reprocessing/datasets_metadata/${SERIES}lane_to_sample.csv ./
 # reorganize fastqs
-cut -d',' -f 3 GSE245310lane_to_sample.csv  | tail -n+2 | sort -u | while read s; do mkdir fastqs/$s; done
-sed  's/,/ /g' GSE245310lane_to_sample.csv  | tail -n+2 | sort -u | while read i l s; do mv fastqs/${l} fastqs/${s}/; done
+cut -d',' -f 3 ${SERIES}lane_to_sample.csv  | tail -n+2 | sort -u | while read s; do mkdir fastqs/$s; done
+sed  's/,/ /g' ${SERIES}lane_to_sample.csv  | tail -n+2 | sort -u | while read i l s; do mv fastqs/${l} fastqs/${s}/; done
 
-cut -d',' -f 3 GSE245310lane_to_sample.csv  | tail -n+2 | sort -u > ${SERIES}.sample.list
+cut -d',' -f 3 ${SERIES}lane_to_sample.csv  | tail -n+2 | sort -u > ${SERIES}.sample.list
 
 
 # fails with segmentation fault, there is a rumor that it is because of Velocyto, lets skip this stage
@@ -302,7 +301,6 @@ nohup ./run_starsolo.sh $SERIES  > solo.log 2>&1 &
 #############################
 SERIES=GSE147520
 cd $SERIES
-# in work
 
 rm -rf GSM* fastqs/*
 
@@ -322,19 +320,32 @@ done <  srr_urls.txt
 
 cd done_wget
 ./bsub_sra2fastq.sh $SERIES sra_to_10x_fastq_gz.sh  
-
-##### HERE #######
+cd ..
 
 ./reorganise_fastqs.sh $SERIES
 nohup ./run_starsolo.sh $SERIES  > solo.log 2>&1 & 
-./solo_QC.sh > $SERIES.solo_qc.tsv
-# these are four atac samples, lets delete them (GSM4710478 GSM4710479 GSM4710480 GSM4710481)
-for s in `grep -Fxv -f <(cut -f1 ${SERIES}.solo_qc.tsv | tail -n +2) ${SERIES}.sample.list`
-do
- echo $s
- rm -r $s
-done
 
+./solo_QC.sh > $SERIES.solo_qc.tsv
+
+
+#############################
+# GSE157329 #################
+#############################
+SERIES=GSE157329
+# lanes loaded as individual samples
+
+cp ../../actions/hdca_v2_reprocessing/datasets_metadata/${SERIES}lane_to_sample.csv ./
+# reorganize fastqs
+cut -d',' -f 3 ${SERIES}lane_to_sample.csv  | tail -n+2 | sort -u | while read s; do mkdir fastqs/$s; done
+sed  's/,/ /g' ${SERIES}lane_to_sample.csv  | tail -n+2 | sort -u | while read i l s; do mv fastqs/${l} fastqs/${s}/; done
+
+cut -d',' -f 3 ${SERIES}lane_to_sample.csv  | tail -n+2 | sort -u > ${SERIES}.sample.list
+
+
+nohup ./run_starsolo.sh $SERIES  > solo.log 2>&1 & 
+
+# looks like removal of velocyto helped
+./solo_QC.sh > $SERIES.solo_qc.tsv
 
 
 

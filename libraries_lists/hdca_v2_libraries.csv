@@ -19,10 +19,6 @@ calvanese_2022_agm,"Broad Stem Cell Research Center, UCLA",external,GSE162950,GS
 calvanese_2022_agm,"Broad Stem Cell Research Center, UCLA",external,GSE135202,GSM3993420,CS10_body_10x,,/archive/cellgeni/datasets/GSE135202/GSM3993420,v2
 calvanese_2022_agm,"Broad Stem Cell Research Center, UCLA",external,GSE135202,GSM3993421,CS11_CH_10x,,/archive/cellgeni/datasets/GSE135202/GSM3993421,v2
 calvanese_2022_agm,"Broad Stem Cell Research Center, UCLA",external,GSE135202,GSM3993422,CS13_DA_10x,,/archive/cellgeni/datasets/GSE135202/GSM3993422,v2
-calvanese_2022_agm,"Broad Stem Cell Research Center, UCLA",external,GSE135202,GSM3993423,CS12_CH,,,v2
-calvanese_2022_agm,"Broad Stem Cell Research Center, UCLA",external,GSE135202,GSM3993424,CS13_DA,,,v2
-calvanese_2022_agm,"Broad Stem Cell Research Center, UCLA",external,GSE135202,GSM3993425,CS14_AGM,,,v2
-calvanese_2022_agm,"Broad Stem Cell Research Center, UCLA",external,GSE135202,GSM3993426,CS15_AGM,,,v2
 dong_2020_adrenal,Children's Hospital of Fudan University,external,GSE137804,GSM4088774,T10,,/archive/cellgeni/datasets/GSE137804/GSM4088774,v2
 dong_2020_adrenal,Children's Hospital of Fudan University,external,GSE137804,GSM4088775,T19,,/archive/cellgeni/datasets/GSE137804/GSM4088775,v2
 dong_2020_adrenal,Children's Hospital of Fudan University,external,GSE137804,GSM4088776,T27,,/archive/cellgeni/datasets/GSE137804/GSM4088776,v2
@@ -1134,7 +1130,7 @@ zhang_2023_limb,Wellcome Sanger Institute,internal,E-MTAB-8813,ERS19298794,FCAIm
 zhang_2023_limb,Wellcome Sanger Institute,internal,E-MTAB-8813,ERS19298795,5478STDY7717491,Chromium single cell,/archive/cellgeni/sanger/5478STDY7717491,v1
 zhang_2023_limb,Wellcome Sanger Institute,internal,E-MTAB-8813,ERS19298796,5478STDY7717492,Chromium single cell,/archive/cellgeni/sanger/5478STDY7717492,v1
 hu_2025_amnion,California Institute of Technology,external,GSE260715,GSM8122927,CS17,,/archive/cellgeni/datasets/GSE260715/GSM8122927,v2
-hu_2025_amnion,California Institute of Technology,external,GSE260715,GSM8122928,CS19,,,v2
+hu_2025_amnion,California Institute of Technology,external,GSE260715,GSM8122928,CS19,,/archive/cellgeni/datasets/GSE260715/GSM8122928,v2
 hu_2025_amnion,California Institute of Technology,external,GSE260715,GSM8122929,CS22,,/archive/cellgeni/datasets/GSE260715/GSM8122929,v2
 hu_2025_amnion,California Institute of Technology,external,GSE260715,GSM8619057,CS16,,/archive/cellgeni/datasets/GSE260715/GSM8619057,v2
 vento_tormo_2018_placenta_decidua,Wellcome Sanger Institute,external,E-MTAB-6701,ERS2657608,FCA7167219,Chromium single cell,/archive/cellgeni/datasets/E-MTAB-6701/ERS2657608,v2
@@ -1263,117 +1259,29 @@ haniffa_2026_fetus,Wellcome Sanger Institute,internal,whole_embryo_11pcw,HDBI_wE
 haniffa_2026_fetus,Wellcome Sanger Institute,internal,whole_embryo_11pcw,HDBI_wEMB14781799,HDBI_wEMB14781799,Chromium single cell 3 prime HT v3,/archive/cellgeni/sanger/HDBI_wEMB14781799,v2
 haniffa_2026_fetus,Wellcome Sanger Institute,internal,whole_embryo_11pcw,HDBI_wEMB14781800,HDBI_wEMB14781800,Chromium single cell 3 prime HT v3,/archive/cellgeni/sanger/HDBI_wEMB14781800,v2
 haniffa_2026_fetus,Wellcome Sanger Institute,internal,whole_embryo_11pcw,HDBI_wEMB14781801,HDBI_wEMB14781801,Chromium single cell 3 prime HT v3,/archive/cellgeni/sanger/HDBI_wEMB14781801,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761442,embryo1-head_trunk-1,,/archive/cellgeni/datasets/GSE157329/GSM4761442,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761443,embryo1-head_trunk-2,,/archive/cellgeni/datasets/GSE157329/GSM4761443,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761444,embryo1-head_trunk-3,,/archive/cellgeni/datasets/GSE157329/GSM4761444,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761445,embryo1-head_trunk-4,,/archive/cellgeni/datasets/GSE157329/GSM4761445,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761446,embryo1-tail_viscera-1,,/archive/cellgeni/datasets/GSE157329/GSM4761446,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761447,embryo1-tail_viscera-2,,/archive/cellgeni/datasets/GSE157329/GSM4761447,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761448,embryo1-tail_viscera-3,,/archive/cellgeni/datasets/GSE157329/GSM4761448,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761449,embryo1-tail_viscera-4,,/archive/cellgeni/datasets/GSE157329/GSM4761449,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761450,embryo2-head-1,,/archive/cellgeni/datasets/GSE157329/GSM4761450,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761451,embryo2-head-2,,/archive/cellgeni/datasets/GSE157329/GSM4761451,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761452,embryo2-head-3,,/archive/cellgeni/datasets/GSE157329/GSM4761452,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761453,embryo2-head-4,,/archive/cellgeni/datasets/GSE157329/GSM4761453,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761454,embryo2-trunk-1,,/archive/cellgeni/datasets/GSE157329/GSM4761454,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761455,embryo2-trunk-2,,/archive/cellgeni/datasets/GSE157329/GSM4761455,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761456,embryo2-trunk-3,,/archive/cellgeni/datasets/GSE157329/GSM4761456,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761457,embryo2-trunk-4,,/archive/cellgeni/datasets/GSE157329/GSM4761457,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761458,embryo2-trunk-5,,/archive/cellgeni/datasets/GSE157329/GSM4761458,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761459,embryo2-trunk-6,,/archive/cellgeni/datasets/GSE157329/GSM4761459,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761460,embryo2-trunk-7,,/archive/cellgeni/datasets/GSE157329/GSM4761460,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761461,embryo2-trunk-8,,/archive/cellgeni/datasets/GSE157329/GSM4761461,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761462,embryo2-viscera-1,,/archive/cellgeni/datasets/GSE157329/GSM4761462,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761463,embryo2-viscera-2,,/archive/cellgeni/datasets/GSE157329/GSM4761463,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761464,embryo2-viscera-3,,/archive/cellgeni/datasets/GSE157329/GSM4761464,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761465,embryo2-viscera-4,,/archive/cellgeni/datasets/GSE157329/GSM4761465,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761466,embryo2-viscera-5,,/archive/cellgeni/datasets/GSE157329/GSM4761466,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761467,embryo2-viscera-6,,/archive/cellgeni/datasets/GSE157329/GSM4761467,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761468,embryo2-viscera-7,,/archive/cellgeni/datasets/GSE157329/GSM4761468,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761469,embryo2-viscera-8,,/archive/cellgeni/datasets/GSE157329/GSM4761469,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761470,embryo2-limb-1,,/archive/cellgeni/datasets/GSE157329/GSM4761470,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761471,embryo2-limb-2,,/archive/cellgeni/datasets/GSE157329/GSM4761471,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761472,embryo2-limb-3,,/archive/cellgeni/datasets/GSE157329/GSM4761472,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761473,embryo2-limb-4,,/archive/cellgeni/datasets/GSE157329/GSM4761473,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761474,embryo2-limb-5,,/archive/cellgeni/datasets/GSE157329/GSM4761474,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761475,embryo2-limb-6,,/archive/cellgeni/datasets/GSE157329/GSM4761475,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761476,embryo2-limb-7,,/archive/cellgeni/datasets/GSE157329/GSM4761476,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761477,embryo2-limb-8,,/archive/cellgeni/datasets/GSE157329/GSM4761477,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761478,Emb.05-head-1,,/archive/cellgeni/datasets/GSE157329/GSM4761478,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761479,Emb.05-head-2,,/archive/cellgeni/datasets/GSE157329/GSM4761479,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761480,Emb.05-head-3,,/archive/cellgeni/datasets/GSE157329/GSM4761480,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761481,Emb.05-head-4,,/archive/cellgeni/datasets/GSE157329/GSM4761481,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761482,Emb.05-trunk-1,,/archive/cellgeni/datasets/GSE157329/GSM4761482,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761483,Emb.05-trunk-2,,/archive/cellgeni/datasets/GSE157329/GSM4761483,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761484,Emb.05-trunk-3,,/archive/cellgeni/datasets/GSE157329/GSM4761484,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761485,Emb.05-trunk-4,,/archive/cellgeni/datasets/GSE157329/GSM4761485,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761486,Emb.05-limb viscera-1,,/archive/cellgeni/datasets/GSE157329/GSM4761486,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761487,Emb.05-limb viscera-2,,/archive/cellgeni/datasets/GSE157329/GSM4761487,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761488,Emb.05-limb viscera-3,,/archive/cellgeni/datasets/GSE157329/GSM4761488,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761489,Emb.05-limb viscera-4,,/archive/cellgeni/datasets/GSE157329/GSM4761489,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761490,Emb.05-viscera limb-1,,/archive/cellgeni/datasets/GSE157329/GSM4761490,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761491,Emb.05-viscera limb-2,,/archive/cellgeni/datasets/GSE157329/GSM4761491,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761492,Emb.05-viscera limb-3,,/archive/cellgeni/datasets/GSE157329/GSM4761492,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761493,Emb.05-viscera limb-4,,/archive/cellgeni/datasets/GSE157329/GSM4761493,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761494,Emb.06-head a-1,,/archive/cellgeni/datasets/GSE157329/GSM4761494,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761495,Emb.06-head a-2,,/archive/cellgeni/datasets/GSE157329/GSM4761495,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761496,Emb.06-head a-3,,/archive/cellgeni/datasets/GSE157329/GSM4761496,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761497,Emb.06-head a-4,,/archive/cellgeni/datasets/GSE157329/GSM4761497,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761498,Emb.06-head a-5,,/archive/cellgeni/datasets/GSE157329/GSM4761498,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761499,Emb.06-head a-6,,/archive/cellgeni/datasets/GSE157329/GSM4761499,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761500,Emb.06-head a-7,,/archive/cellgeni/datasets/GSE157329/GSM4761500,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761501,Emb.06-head a-8,,/archive/cellgeni/datasets/GSE157329/GSM4761501,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761502,Emb.06-head b-1,,/archive/cellgeni/datasets/GSE157329/GSM4761502,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761503,Emb.06-head b-2,,/archive/cellgeni/datasets/GSE157329/GSM4761503,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761504,Emb.06-head b-3,,/archive/cellgeni/datasets/GSE157329/GSM4761504,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761505,Emb.06-head b-4,,/archive/cellgeni/datasets/GSE157329/GSM4761505,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761506,Emb.06-head b-5,,/archive/cellgeni/datasets/GSE157329/GSM4761506,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761507,Emb.06-head b-6,,/archive/cellgeni/datasets/GSE157329/GSM4761507,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761508,Emb.06-head b-7,,/archive/cellgeni/datasets/GSE157329/GSM4761508,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761509,Emb.06-head b-8,,/archive/cellgeni/datasets/GSE157329/GSM4761509,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761510,Emb.06-head b-9,,/archive/cellgeni/datasets/GSE157329/GSM4761510,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761511,Emb.06-head b-10,,/archive/cellgeni/datasets/GSE157329/GSM4761511,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761512,Emb.06-head b-11,,/archive/cellgeni/datasets/GSE157329/GSM4761512,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761513,Emb.06-head b-12,,/archive/cellgeni/datasets/GSE157329/GSM4761513,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761514,Emb.06-trunk-1,,/archive/cellgeni/datasets/GSE157329/GSM4761514,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761515,Emb.06-trunk-2,,/archive/cellgeni/datasets/GSE157329/GSM4761515,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761516,Emb.06-trunk-3,,/archive/cellgeni/datasets/GSE157329/GSM4761516,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761517,Emb.06-trunk-4,,/archive/cellgeni/datasets/GSE157329/GSM4761517,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761518,Emb.06-trunk-5,,/archive/cellgeni/datasets/GSE157329/GSM4761518,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761519,Emb.06-trunk-6,,/archive/cellgeni/datasets/GSE157329/GSM4761519,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761520,Emb.06-trunk-7,,/archive/cellgeni/datasets/GSE157329/GSM4761520,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761521,Emb.06-trunk-8,,/archive/cellgeni/datasets/GSE157329/GSM4761521,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761522,Emb.06-trunk-9,,/archive/cellgeni/datasets/GSE157329/GSM4761522,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761523,Emb.06-trunk-10,,/archive/cellgeni/datasets/GSE157329/GSM4761523,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761524,Emb.06-trunk-11,,/archive/cellgeni/datasets/GSE157329/GSM4761524,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761525,Emb.06-trunk-12,,/archive/cellgeni/datasets/GSE157329/GSM4761525,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761526,Emb.06-limb-1,,/archive/cellgeni/datasets/GSE157329/GSM4761526,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761527,Emb.06-limb-2,,/archive/cellgeni/datasets/GSE157329/GSM4761527,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761528,Emb.06-limb-3,,/archive/cellgeni/datasets/GSE157329/GSM4761528,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761529,Emb.06-limb-4,,/archive/cellgeni/datasets/GSE157329/GSM4761529,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761530,Emb.06-limb-5,,/archive/cellgeni/datasets/GSE157329/GSM4761530,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761531,Emb.06-limb-6,,/archive/cellgeni/datasets/GSE157329/GSM4761531,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761532,Emb.06-limb-7,,/archive/cellgeni/datasets/GSE157329/GSM4761532,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761533,Emb.06-limb-8,,/archive/cellgeni/datasets/GSE157329/GSM4761533,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761534,Emb.06-limb-9,,/archive/cellgeni/datasets/GSE157329/GSM4761534,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761535,Emb.06-limb-10,,/archive/cellgeni/datasets/GSE157329/GSM4761535,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761536,Emb.06-limb-11,,/archive/cellgeni/datasets/GSE157329/GSM4761536,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761537,Emb.06-limb-12,,/archive/cellgeni/datasets/GSE157329/GSM4761537,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761538,Emb.07-limb viscera-1,,/archive/cellgeni/datasets/GSE157329/GSM4761538,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761539,Emb.07-limb viscera-2,,/archive/cellgeni/datasets/GSE157329/GSM4761539,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761540,Emb.07-limb viscera-3,,/archive/cellgeni/datasets/GSE157329/GSM4761540,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761541,Emb.07-limb viscera-4,,/archive/cellgeni/datasets/GSE157329/GSM4761541,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761542,Emb.07-viscera-1,,/archive/cellgeni/datasets/GSE157329/GSM4761542,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761543,Emb.07-viscera-2,,/archive/cellgeni/datasets/GSE157329/GSM4761543,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761544,Emb.07-viscera-3,,/archive/cellgeni/datasets/GSE157329/GSM4761544,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM4761545,Emb.07-viscera-4,,/archive/cellgeni/datasets/GSE157329/GSM4761545,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM6454897,"Emb.03-trunk, scRNAseq",,,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM6454898,"Emb.03-viscera, scRNAseq",,,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM6454899,"Emb.03-limb, scRNAseq",,,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM6454900,"Emb.04-head, scRNAseq",,,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM6454901,"Emb.04-trunk, scRNAseq",,,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM6454902,"Emb.04-viscera, scRNAseq",,,v2
-xu_2023_embryo,Tongji University,external,GSE157329,GSM6454903,"Emb.04-limb, scRNAseq",,,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_embryo1-head_trunk,embryo1-head_trunk,,/archive/cellgeni/datasets/GSE157329/GSE157329_embryo1-head_trunk,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_embryo1-tail_viscera,embryo1-tail_viscera,,/archive/cellgeni/datasets/GSE157329/GSE157329_embryo1-tail_viscera,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_embryo2-head,embryo2-head,,/archive/cellgeni/datasets/GSE157329/GSE157329_embryo2-head,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_embryo2-trunk,embryo2-trunk,,/archive/cellgeni/datasets/GSE157329/GSE157329_embryo2-trunk,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_embryo2-viscera,embryo2-viscera,,/archive/cellgeni/datasets/GSE157329/GSE157329_embryo2-viscera,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_embryo2-limb,embryo2-limb,,/archive/cellgeni/datasets/GSE157329/GSE157329_embryo2-limb,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_Emb.05-head,Emb.05-head,,/archive/cellgeni/datasets/GSE157329/GSE157329_Emb.05-head,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_Emb.05-trunk,Emb.05-trunk,,/archive/cellgeni/datasets/GSE157329/GSE157329_Emb.05-trunk,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_Emb.05-limb_viscera,Emb.05-limb_viscera,,/archive/cellgeni/datasets/GSE157329/GSE157329_Emb.05-limb_viscera,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_Emb.05-viscera_limb,Emb.05-viscera_limb,,/archive/cellgeni/datasets/GSE157329/GSE157329_Emb.05-viscera_limb,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_Emb.06-head_a,Emb.06-head_a,,/archive/cellgeni/datasets/GSE157329/GSE157329_Emb.06-head_a,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_Emb.06-head_b,Emb.06-head_b,,/archive/cellgeni/datasets/GSE157329/GSE157329_Emb.06-head_b,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_Emb.06-trunk,Emb.06-trunk,,/archive/cellgeni/datasets/GSE157329/GSE157329_Emb.06-trunk,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_Emb.06-limb,Emb.06-limb,,/archive/cellgeni/datasets/GSE157329/GSE157329_Emb.06-limb,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_Emb.07-limb_viscera,Emb.07-limb_viscera,,/archive/cellgeni/datasets/GSE157329/GSE157329_Emb.07-limb_viscera,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_Emb.07-viscera,Emb.07-viscera,,/archive/cellgeni/datasets/GSE157329/GSE157329_Emb.07-viscera,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_Emb.03-trunk,Emb.03-trunk,,/archive/cellgeni/datasets/GSE157329/GSE157329_Emb.03-trunk,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_Emb.03-viscera,Emb.03-viscera,,/archive/cellgeni/datasets/GSE157329/GSE157329_Emb.03-viscera,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_Emb.03-limb,Emb.03-limb,,/archive/cellgeni/datasets/GSE157329/GSE157329_Emb.03-limb,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_Emb.04-head,Emb.04-head,,/archive/cellgeni/datasets/GSE157329/GSE157329_Emb.04-head,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_Emb.04-trunk,Emb.04-trunk,,/archive/cellgeni/datasets/GSE157329/GSE157329_Emb.04-trunk,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_Emb.04-viscera,Emb.04-viscera,,/archive/cellgeni/datasets/GSE157329/GSE157329_Emb.04-viscera,v2
+xu_2023_embryo,Tongji University,external,GSE157329,GSE157329_Emb.04-limb,Emb.04-limb,,/archive/cellgeni/datasets/GSE157329/GSE157329_Emb.04-limb,v2
 xu_2023_embryo,Tongji University,external,GSE171892,GSM5236518,human_CS12_spinalcord_rep1,,/archive/cellgeni/datasets/GSE171892/GSM5236518,v2
 xu_2023_embryo,Tongji University,external,GSE171892,GSM5236519,human_CS12_spinalcord_rep2,,/archive/cellgeni/datasets/GSE171892/GSM5236519,v2
 xu_2023_embryo,Tongji University,external,GSE171892,GSM5236520,human_CS14_brachial_rep1,,/archive/cellgeni/datasets/GSE171892/GSM5236520,v2
@@ -1640,10 +1548,10 @@ yayon_2024_thymus,Wellcome Sanger Institute,external,GSE271304,GSM8374232,TT-CIT
 yayon_2024_thymus,Wellcome Sanger Institute,external,GSE271304,GSM8374233,TT-CITE-11-GEX,,/archive/cellgeni/datasets/GSE271304/GSM8374233,v2
 yayon_2024_thymus,Wellcome Sanger Institute,external,GSE271304,GSM8374234,TT-CITE-12-GEX,,/archive/cellgeni/datasets/GSE271304/GSM8374234,v2
 yayon_2024_thymus,Wellcome Sanger Institute,external,GSE147520,GSM4466780,Fetal - 19 wks,,/archive/cellgeni/datasets/GSE147520/GSM4466780,v2
-yayon_2024_thymus,Wellcome Sanger Institute,external,GSE147520,GSM4466781,Fetal - 23 wks_1,,,v2
-yayon_2024_thymus,Wellcome Sanger Institute,external,GSE147520,GSM4466782,Fetal - 23 wks_2,,,v2
+yayon_2024_thymus,Wellcome Sanger Institute,external,GSE147520,GSM4466781,Fetal - 23 wks_1,,/archive/cellgeni/datasets/GSE147520/GSM4466781,v2
+yayon_2024_thymus,Wellcome Sanger Institute,external,GSE147520,GSM4466782,Fetal - 23 wks_2,,/archive/cellgeni/datasets/GSE147520/GSM4466782,v2
 yayon_2024_thymus,Wellcome Sanger Institute,external,GSE147520,GSM4466783,Postnatal - 6 days,,/archive/cellgeni/datasets/GSE147520/GSM4466783,v2
-yayon_2024_thymus,Wellcome Sanger Institute,external,GSE147520,GSM4466784,Postnatal - 10 months_1,,,v2
+yayon_2024_thymus,Wellcome Sanger Institute,external,GSE147520,GSM4466784,Postnatal - 10 months_1,,/archive/cellgeni/datasets/GSE147520/GSM4466784,v2
 yayon_2024_thymus,Wellcome Sanger Institute,external,GSE147520,GSM4466785,Postnatal - 10 months_2,,/archive/cellgeni/datasets/GSE147520/GSM4466785,v2
 yayon_2024_thymus,Wellcome Sanger Institute,external,GSE147520,GSM4466786,Adult - 25 years,,/archive/cellgeni/datasets/GSE147520/GSM4466786,v2
 yayon_2024_thymus,Wellcome Sanger Institute,external,GSE159745,GSM4838951,cTEC1_thymic epithelial cells_scRNA-seq,,/archive/cellgeni/datasets/GSE159745/GSM4838951,v2
@@ -1744,74 +1652,20 @@ yayon_2024_thymus,Wellcome Sanger Institute,external,E-MTAB-8581,ERS4228662,WSSS
 yayon_2024_thymus,Wellcome Sanger Institute,external,E-MTAB-8581,ERS4228663,WSSS8084743,Chromium single cell,/archive/cellgeni/datasets/E-MTAB-8581/ERS4228663,v2
 yayon_2024_thymus,Wellcome Sanger Institute,external,E-MTAB-8581,ERS4228664,WSSS8084744,Chromium single cell,/archive/cellgeni/datasets/E-MTAB-8581/ERS4228664,v2
 yayon_2024_thymus,Wellcome Sanger Institute,external,E-MTAB-8581,ERS4228665,WSSS8084745,Chromium single cell,/archive/cellgeni/datasets/E-MTAB-8581/ERS4228665,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840556,DRG1_GW8_sample2,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840557,DRG_GW8_sample1_lane1_S2-1,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840558,DRG_GW8_sample1_lane1_S2-2,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840559,DRG_GW8_sample1_lane1_S2-3,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840560,DRG_GW8_sample1_lane1_S2-4,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840561,DRG_GW8_sample1_lane2_S2_1,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840562,DRG_GW8_sample1_lane2_S2_2,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840563,DRG_GW8_sample1_lane2_S2_3,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840564,DRG_GW8_sample1_lane2_S2_4,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840565,DRG_GW8_sample1_lane3-S2-1,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840566,DRG_GW8_sample1_lane3-S2-2,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840567,DRG_GW8_sample1_lane3-S2-3,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840568,DRG_GW8_sample1_lane3-S2-4,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840569,DRG3_GW10_sample2_S1,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840570,DRG5_GW10_sample1_S1,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840571,DRG4_GW7_sample1_S1,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840572,DRG_GW7_sample2_lane1_S1-1,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840573,DRG_GW7_sample2_lane1_S1-2,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840574,DRG_GW7_sample2_lane1_S1-3,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840575,DRG_GW7_sample2_lane1_S1-4,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840576,DRG_GW7_sample2_lane2_S1-1,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840577,DRG_GW7_sample2_lane2_S1-2,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840578,DRG_GW7_sample2_lane2_S1-3,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840579,DRG_GW7_sample2_lane2_S1-4,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840580,DRG_GW7_sample2_lane3_S1-1,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840581,DRG_GW7_sample2_lane3_S1-2,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840582,DRG_GW7_sample2_lane3_S1-3,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840583,DRG_GW7_sample2_lane3_S1-4,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840584,DRG8_GW14_S1_L001_R1_001,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840585,DRG8_GW14_S1_L001_R1_002,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840586,DRG8_GW14_S1_L001_R1_003,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840587,DRG8_GW14_S1_L001_R1_004,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840588,DRG9_GW17_S1_L001_R1_001,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840589,DRG9_GW17_S1_L001_R1_002,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840590,DRG9_GW17_S1_L001_R1_003,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840591,DRG9_GW17_S1_L001_R1_004,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840592,DRG10_GW21_S1_L001_R1_001,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840593,DRG10_GW21_S1_L001_R1_002,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840594,DRG10_GW21_S1_L001_R1_003,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840595,DRG10_GW21_S1_L001_R1_004,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840596,DRG_GW9_lane1_S3-1_S9_L001_R1_001,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840597,DRG_GW9_lane1_S3-2_S10_L001_R1_001,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840598,DRG_GW9_lane1_S3-3_S11_L001_R1_002,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840599,DRG_GW9_lane1_S3-4_S12_L001_R1_002,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840600,DRG_GW9_lane2_S3-1,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840601,DRG_GW9_lane2_S3-2,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840602,DRG_GW9_lane2_S3-3,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840603,DRG_GW9_lane2_S3-4,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840604,DRG_GW9_lane3_S3-1,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840605,DRG_GW9_lane3_S3-2,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840606,DRG_GW9_lane3_S3-3,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840607,DRG_GW9_lane3_S3-4,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840608,DRG_GW12_sample1_S4-1_S13,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840609,DRG_GW12_sample1_S4-2_S14,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840610,DRG_GW12_sample1_S4-3_S15,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840611,DRG_GW12_sample1_S4-4_S16,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840612,DRG_GW12_sample2_S5-1_S17,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840613,DRG_GW12_sample2_S5-2_S18,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840614,DRG_GW12_sample2_S5-3_S19,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840615,DRG_GW12_sample2_S5-4_S20,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840616,DRG_GW15_sample1_S6-1_S21,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840617,DRG_GW15_sample1_S6-2_S22,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840618,DRG_GW15_sample1_S6-3_S23,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840619,DRG_GW15_sample1_S6-4_S24,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840620,DRG_GW15_sample2_S7-1_S25,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840621,DRG_GW15_sample2_S7-2_S26,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840622,DRG_GW15_sample2_S7-3_S27,,,v2
-lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSM7840623,DRG_GW15_sample2_S7-4_S28,,,v2
+lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSE245310_GW8-2,GW8-2,,/archive/cellgeni/datasets/GSE245310/GSE245310_GW8-2,v2
+lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSE245310_GW8-1,GW8-1,,/archive/cellgeni/datasets/GSE245310/GSE245310_GW8-1,v2
+lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSE245310_GW10-2,GW10-2,,/archive/cellgeni/datasets/GSE245310/GSE245310_GW10-2,v2
+lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSE245310_GW10-1,GW10-1,,/archive/cellgeni/datasets/GSE245310/GSE245310_GW10-1,v2
+lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSE245310_GW7-1,GW7-1,,/archive/cellgeni/datasets/GSE245310/GSE245310_GW7-1,v2
+lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSE245310_GW7-2,GW7-2,,/archive/cellgeni/datasets/GSE245310/GSE245310_GW7-2,v2
+lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSE245310_GW14,GW14,,/archive/cellgeni/datasets/GSE245310/GSE245310_GW14,v2
+lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSE245310_GW17,GW17,,/archive/cellgeni/datasets/GSE245310/GSE245310_GW17,v2
+lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSE245310_GW21,GW21,,/archive/cellgeni/datasets/GSE245310/GSE245310_GW21,v2
+lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSE245310_GW9,GW9,,/archive/cellgeni/datasets/GSE245310/GSE245310_GW9,v2
+lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSE245310_GW12-1,GW12-1,,/archive/cellgeni/datasets/GSE245310/GSE245310_GW12-1,v2
+lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSE245310_GW12-2,GW12-2,,/archive/cellgeni/datasets/GSE245310/GSE245310_GW12-2,v2
+lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSE245310_GW15-1,GW15-1,,/archive/cellgeni/datasets/GSE245310/GSE245310_GW15-1,v2
+lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE245310,GSE245310_GW15-2,GW15-2,,/archive/cellgeni/datasets/GSE245310/GSE245310_GW15-2,v2
 lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE201586,GSM6068093,humanDRG_sample1,,/archive/cellgeni/datasets/GSE201586/GSM6068093,v2
 lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE201586,GSM6068094,humanDRG_sample2,,/archive/cellgeni/datasets/GSE201586/GSM6068094,v2
 lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE201586,GSM6068095,humanDRG_sample3,,/archive/cellgeni/datasets/GSE201586/GSM6068095,v2
@@ -1830,3 +1684,27 @@ lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE2
 lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE201586,GSM6068108,humanDRG_sample16,,/archive/cellgeni/datasets/GSE201586/GSM6068108,v2
 lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE201586,GSM6068109,humanDRG_sample17,,/archive/cellgeni/datasets/GSE201586/GSM6068109,v2
 lu_2024_drg,"Institute of Biophysics, Chinese Academy of Sciences",external,GSE201586,GSM6068110,humanDRG_sample18,,/archive/cellgeni/datasets/GSE201586/GSM6068110,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna11814737,HCA_GLNDrna11814737,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna11814737,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna11814738,HCA_GLNDrna11814738,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna11814738,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna11814746,HCA_GLNDrna11814746,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna11814746,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna12943534,HCA_GLNDrna12943534,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna12943534,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna12943535,HCA_GLNDrna12943535,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna12943535,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna12943536,HCA_GLNDrna12943536,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna12943536,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna13248310,HCA_GLNDrna13248310,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna13248310,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna13255572,HCA_GLNDrna13255572,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna13255572,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna13255573,HCA_GLNDrna13255573,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna13255573,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna13255574,HCA_GLNDrna13255574,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna13255574,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna13255575,HCA_GLNDrna13255575,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna13255575,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna13255576,HCA_GLNDrna13255576,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna13255576,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna13255577,HCA_GLNDrna13255577,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna13255577,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna13288202,HCA_GLNDrna13288202,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna13288202,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna13288203,HCA_GLNDrna13288203,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna13288203,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna13288206,HCA_GLNDrna13288206,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna13288206,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna13288207,HCA_GLNDrna13288207,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna13288207,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna13460409,HCA_GLNDrna13460409,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna13460409,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna13460410,HCA_GLNDrna13460410,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna13460410,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna13460411,HCA_GLNDrna13460411,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna13460411,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna13654976,HCA_GLNDrna13654976,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna13654976,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna13654977,HCA_GLNDrna13654977,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna13654977,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna13654978,HCA_GLNDrna13654978,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna13654978,v2
+massalha_2024_thyroid,Wellcome Sanger Institute,internal,massalha_2024_thyroid,HCA_GLNDrna13654979,HCA_GLNDrna13654979,Chromium single cell 5 prime,/archive/cellgeni/sanger/HCA_GLNDrna13654979,v2
